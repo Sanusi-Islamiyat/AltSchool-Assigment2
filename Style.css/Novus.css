@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    }
+    
+    .main-div {
+        background-color: rgb(161, 153, 212) ;
+        width: 1000px;
+        height: 700px;
+        margin-top: 100px;
+        border: 2px solid rgb(196, 196, 196);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .container {
+        width:600px ;
+        height: 460px;
+        box-shadow: 4px 4px 20px rgba(116, 101, 216, 0.6);
+        display: grid;
+        grid-template-rows: 300px 200px;
+        
+    }
+
+    .novus-image {
+        width: 600px;
+        height: 300px;
+        border-radius: 12px 12px 0px 0px;
+        position: absolute;
+        
+    }
+
+    .new-container {
+        background-color: 	rgb(243, 250, 146);
+        position: relative;
+        top: 12px;
+        left: -10px;
+        display: inline;
+        border-radius: 4px 16px 16px 4px;
+        padding-inline: 16px;
+        padding-block: 4px; 
+    }
+
+    .new {
+        display: inline;
+        font-size: 16px;
+        font-weight: bolder;
+        color: rgb(31, 31, 31);
+    }
+
+    .description-container {
+        background-color: white;
+        width: 600px;
+        height: 160px;
+        border-radius: 0px 0px 12px 12px;
+        
+    }
+
+    h3 {
+       font-size: 20px; 
+       margin-left: 20px;
+    }
+
+    .IV {
+        font-size: 12px;
+        color: gray;
+    }
+    .description {
+        font-size: 14px;
+        color: rgb(31, 31, 31);
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 20px;
+    }

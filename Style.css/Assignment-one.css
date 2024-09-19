@@ -1,0 +1,56 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main-div {
+    background-color: rgb(51, 51, 51);
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.peek-a-boo {
+    background-color: 	rgb(255, 20, 147);
+    position: relative;
+    top: -10px;
+    left: 40.79px;
+    display: inline;
+    border-radius: 4px;
+    padding-inline: 40px;
+    padding-block: 20px;
+    
+    
+}
+
+.otter-essay {
+    display: inline;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.essay-body {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+     position: absolute;
+     width: 320px;
+     height: 200px;
+     border-radius: 8px;
+
+}
+
+.description {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    margin-top: 40px;
+    margin-left: 20px;
+}
