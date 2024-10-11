@@ -8,8 +8,6 @@ body {
     --color: rgba(100, 110, 122, 1);
     --background-color: rgba(237, 239, 242, 1);
     --tag: rgba(29, 44, 60, 1);
-
-    
 }
 
 .container {
@@ -203,6 +201,10 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: -0.1px;
 color: rgba(255, 255, 255, 1);
+}
+
+.use span {
+    font-weight: bold;
 }
 
 .switch {
@@ -408,3 +410,6 @@ color: var(--color);
 
 }
 
+#contact-support {
+    text-decoration: underline;
+}
