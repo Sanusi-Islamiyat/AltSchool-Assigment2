@@ -134,7 +134,7 @@ p {
 
   @media (max-width:390px) {
     .container {
-      height: 1000px;
+      height: 100vh;
     
     }
 
@@ -147,7 +147,7 @@ p {
 
     .main {
         width: 398px;
-        height: 600px;
+        height: 800px;
 
 
 }
@@ -177,14 +177,14 @@ p {
 
 }
 
-.scroll-container {
+.kpi-scroll, .true {
     overflow-wrap: break-word;
+    overflow: hidden;
+    visibility: collapse;
 }
 
 
-.KPIs, .true {
-   overflow-y: auto;
-}
+
 
 
   }
