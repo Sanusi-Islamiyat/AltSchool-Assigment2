@@ -53,7 +53,7 @@ display: flex;
         margin-inline-start: 264px;
     }
 
-    span {
+    .passion-span {
         font-weight: bold ;
         color: rgba(0, 153, 102, 1);
     }
@@ -98,7 +98,9 @@ display: flex;
 
     p, .huckleberry, .passion, .tomorrow {
         margin-inline-start: 38px;
+        text-align: justify;
     }
+
 
     .main {
         width: 776px;
@@ -132,16 +134,20 @@ p {
 
   @media (max-width:390px) {
     .container {
-      height: 844px;
+      height: 1000px;
+    
     }
 
     p, .huckleberry, .passion, .tomorrow {
         margin-inline-start: 24px;
     }
+    .passion, .tomorrow,.KPIs, .true {
+        display: block;
+    }
 
     .main {
         width: 398px;
-        height: 767px;
+        height: 600px;
 
 
 }
@@ -171,13 +177,14 @@ p {
 
 }
 
-.true {
-    overflow: scroll;
+.scroll-container {
+    overflow-wrap: break-word;
 }
 
-.KPIs {
-    overflow: scroll;
+
+.KPIs, .true {
+   overflow-y: auto;
 }
+
+
   }
-
-  
