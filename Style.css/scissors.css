@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Gilroy', sans-serif; 
+}
+
+
+:root {
+    --primary-colour:rgba(0, 101, 254, 1);
+    --secondary-colour:  rgba(50, 132, 255, 0.13);
+}
+
+@font-face {
+   font-family: 'Gilroy'; 
+   src: local('/Fonts/gilroy/Gilroy-Bold.ttf') format('ttf'),
+        local('/Fonts/gilroy/Gilroy-SemiBold.ttf') format('ttf'),
+        local('/Fonts/gilroy/Gilroy-Medium.ttf') format('ttf');
+   font-weight: bolder, medium, bold;
+   font-style: normal;
+
+}
+
+
+.hero-section {
+width: 1440px;
+height: 1024px;
+margin-top: 20px;
+background-color: rgba(255, 255, 255, 1);
+display: flex;
+justify-content: center;
+position: relative;
+   
+}
+.aurora {
+width: 1058px;
+height: 404.9px;
+background-image: url('/Assets/aurora.svg');
+
+
+}
+
+.vector {
+width: 238.55px;
+height: 251.2px;
+top: 725.63px;
+left: 369px;
+rotate: 29.82em; 
+position: absolute;
+top: 600px;
+
+}
+
+.group-3 {
+position: absolute;
+bottom: 0px;
+width: 1440px;
+height: 93px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 155px 1fr 211px;
+    margin-top: 10px;
+    justify-content: space-between;
+
+    
+}
+
+.left-section {
+width: 155px;
+height: 40px;
+}
+
+.middle-section {
+    display: grid;
+    grid-template-columns: 69px 100px 56px 76px 43px;
+    width: 504px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.URLs, .pricing, .analytics, .FAQs {
+    height: 22px;
+}
+
+select {
+width: 100px;
+height: 24px;
+
+}
+
+.Features {
+    width: 76px;
+}

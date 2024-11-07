@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    
+}
+
+.container {
+    width: 1020px;
+    box-shadow: 2px 0.5px 2px rgba(126, 182, 235, 0.1);
+    height: 1000px;
+    gap: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.line-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    gap: 20px;    
+    
+}
+
+.line-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 640px;
+    margin-inline-start: 200px;
+    gap: 20px;
+}
+
+
+.assignment-1 {
+    width: 300px;
+    height: 260px;
+    border: 0.2px solid rgb(219, 217, 217);
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/01/cd/f6/01cdf62f4c34ac666b5c8391f97bc237.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+   
+}
+
+.assignment-1-overlay {
+    width: 300px;
+    height: 260px;
+    border-radius: 20px;
+    background-color: rgba(5, 162, 253, 0.2);
+    position: relative;
+    
+}
+
+.assignment-1-link {
+font-weight: bold;
+font-size: 20px;
+color: rgb(88, 42, 255);
+text-decoration: none;
+position: absolute;
+bottom: 4px;
+right: 4px;
+}
+
+.assignment-2 {
+    width: 300px;
+    height: 260px;
+    border: 0.2px solid rgb(219, 217, 217);
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/7e/ea/c2/7eeac22d16499f7fd6c0daaf665fb021.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+   
+}
+
+.assignment-2-overlay {
+    width: 300px;
+    height: 260px;
+    border-radius: 20px;
+    background-color: rgba(255, 53, 97, 0.2);
+    position: relative;
+}
+
+.assignment-2-link {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 42, 124);
+    text-decoration: none;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    }
+    
+    .assignment-3 {
+        width: 300px;
+        height: 260px;
+        border: 0.2px solid rgb(219, 217, 217);
+        border-radius: 20px;
+        background-image: url('https://i.pinimg.com/736x/81/dc/b7/81dcb7b6a25603c0b875c8edbf7e1894.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+       
+    }
+    
+    .assignment-3-overlay {
+        width: 300px;
+        height: 260px;
+        border-radius: 20px;
+        background-color: rgba(199, 255, 220, 0.2);
+        position: relative;
+    }
+    
+    .assignment-3-link {
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(27, 255, 160);
+        text-decoration: none;
+        position: absolute;
+        bottom: 4px;
+        right: 4px;
+        }
+
+        .assignment-4 {
+            width: 300px;
+            height: 260px;
+            border-radius: 20px;
+            background-image: url('https://i.pinimg.com/564x/18/83/bf/1883bf4a313a3015231aa44c92f64498.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+           
+        }
+        
+        .assignment-4-overlay {
+            width: 300px;
+            height: 260px;
+            border-radius: 20px;
+            background-color: rgba(255, 200, 248, 0.2);
+            position: relative;
+        }
+        
+        .assignment-4-link {
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(236, 63, 199);
+            text-decoration: none;
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            }
+
+            .assignment-5 {
+                width: 300px;
+                height: 260px;
+                border-radius: 20px;
+                background-image: url('https://i.pinimg.com/564x/98/34/e5/9834e572f8fa29dcdee19c6b325e0a33.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: center;
+               
+            }
+            
+            .assignment-5-overlay {
+                width: 300px;
+                height: 260px;
+                border-radius: 20px;
+                background-color: rgba(119, 127, 240, 0.2);
+                position: relative;
+            }
+            
+            .assignment-5-link {
+                font-weight: bold;
+                font-size: 20px;
+                color: rgb(154, 189, 255);
+                text-decoration: none;
+                position: absolute;
+                bottom: 4px;
+                right: 4px;
+                }
+        
