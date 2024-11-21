@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-family: 'Gilroy', sans-serif; 
 }
 
@@ -21,74 +21,75 @@ body {
 
 }
 
-
 .hero-section {
-width: 1440px;
-height: 1024px;
-margin-top: 20px;
-background-color: rgba(255, 255, 255, 1);
-display: flex;
-justify-content: center;
-position: relative;
-   
-}
-.aurora {
-width: 1058px;
-height: 404.9px;
-background-image: url('/Assets/aurora.svg');
-
-
-}
-
-.vector {
-width: 238.55px;
-height: 251.2px;
-top: 725.63px;
-left: 369px;
-rotate: 29.82em; 
-position: absolute;
-top: 600px;
-
-}
-
-.group-3 {
-position: absolute;
-bottom: 0px;
-width: 1440px;
-height: 93px;
+    background-image: url('/Assets/aurora.svg');
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+  
 }
 
 .header {
-    display: grid;
-    grid-template-columns: 155px 1fr 211px;
-    margin-top: 10px;
-    justify-content: space-between;
+width: 1,150px;
+height: 44px;
+margin-block-start: 12px;
+display: grid;
+grid-template-columns: 155px 504px 211px ;
+justify-content: space-between;
+align-items: center;
+gap: 140px;
 
+}
+.left-section {
+    width: 155px;
+    height: 40px;
+}
+
+.middle-section  {
+    display: grid;
+    grid-template-columns: 69px 100px 56px 76px 43px;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+}
+
+.right-section {
+  display: grid;
+  grid-template-columns: 50px 142px;
+  gap: 24px;
+  align-items: center;
+}
+
+.features {
+    background-color: transparent;
+    border: transparent;
+    font-size: 16px;
     
 }
 
-.left-section {
-width: 155px;
-height: 40px;
+.my-urls {
+    color: var(--primary-colour);
 }
 
-.middle-section {
-    display: grid;
-    grid-template-columns: 69px 100px 56px 76px 43px;
-    width: 504px;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.URLs, .pricing, .analytics, .FAQs {
-    height: 22px;
+.log-in {
+    color: var(--primary-colour);
+    font-size: 16px;
+    font-weight: bold;
 }
 
-select {
-width: 100px;
-height: 24px;
+.try {
+    padding: 12px 24px 12px 24px;
+    color: rgba(255, 255, 255, 1);
 
+    background-color: var(--primary-colour);
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.Features {
-    width: 76px;
+.opt-container {
+    width: 948px;
+    height: 389px;
 }
