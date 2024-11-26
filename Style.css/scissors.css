@@ -1,14 +1,21 @@
 body {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1024px 982px;
     justify-content: center;
     align-items: center;
-    font-family: 'Gilroy', sans-serif; 
+    color: var(--text-colour);
+    font-family: 'Gilroy', sans-serif;
+   
+
 }
 
 
 :root {
     --primary-colour:rgba(0, 101, 254, 1);
+    --url-colour: rgba(0, 90, 226, 1);
     --secondary-colour:  rgba(50, 132, 255, 0.13);
+    --text-colour: rgba(20, 20, 20, 1);
+
 }
 
 @font-face {
@@ -25,8 +32,11 @@ body {
     background-image: url('/Assets/aurora.svg');
     width: 1440px;
     height: 1024px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 44px 389px 336.57px 93px;
     justify-content: center;
+    gap: 40px;
+   
   
 }
 
@@ -36,14 +46,16 @@ height: 44px;
 margin-block-start: 12px;
 display: grid;
 grid-template-columns: 155px 504px 211px ;
-justify-content: space-between;
 align-items: center;
 gap: 140px;
+margin-inline-start: 145.09px;
+
 
 }
 .left-section {
     width: 155px;
     height: 40px;
+   
 }
 
 .middle-section  {
@@ -81,7 +93,6 @@ gap: 140px;
 .try {
     padding: 12px 24px 12px 24px;
     color: rgba(255, 255, 255, 1);
-
     background-color: var(--primary-colour);
     border: none;
     border-radius: 100px;
@@ -90,6 +101,143 @@ gap: 140px;
 }
 
 .opt-container {
-    width: 948px;
+    
     height: 389px;
+    display: grid;
+    grid-template-rows: 200px 105px 56px;
+    margin-block-start: 0px;
+    gap: 40px;
+    
 }
+
+h3 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-colour);
+    line-height: 96px;
+    
+}
+
+.url-sht {
+    color: var(--url-colour);
+    font-family: 'Gilroy' sans-serif;
+}
+
+.blue-line {
+    background-color: transparent;
+    width: 173.63px;
+    height: 19.91px;
+    margin-inline-start: 397px;
+    margin-block-start: 12px;
+
+}
+
+.personalize {
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+font-weight: 400;
+
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 142px 1fr;
+    gap: 10px;
+    width: 282px;
+    align-items: center;
+    margin-inline-start: 580px ;
+    margin-block-start: 10px;
+}
+
+.sign {
+    width: 142px;
+height: 44px;
+padding: 12px 24px;
+border-radius: 100px;
+background-color: var(--primary-colour);
+color:  rgba(255, 255, 255, 1);
+border: none;
+font-size: 16px;
+
+}
+
+.learn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: var(--primary-colour);
+    font-weight: 600;
+}
+
+.vector-2 {
+    width: 833px;
+    height: 336.57px;
+    margin-inline-start: 340px;
+    margin-block-start: 60px;
+    position: relative;
+    
+    
+}
+
+.vector-image {
+    position: absolute;
+    left: 65px;
+    top: 10px;
+}
+
+.seamless {
+    width: 768px;
+    height: 224px;
+   position: absolute;
+   left: 65px;
+   top: 25px;
+    z-index: 200px;
+    border-radius: 24px;
+    border: 0.5px solid var(--primary-colour);
+    background: linear-gradient(to right, rgb(222, 224, 230), rgb(255, 255, 255), transparent, transparent);   
+
+} /*hero-section ends here*/
+
+.desktop-10 {
+    display: grid;
+    grid-template-rows: 220px;
+   margin-block-start: -85px;
+    height: 982px;
+    width: 1440px;
+}
+
+.fr-dsk-1 {
+    background-color: rgba(249, 251, 253, 1);
+    height: 220px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fr-dsk-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 709px;
+    gap: 120px;
+    margin-inline-start: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.poso {
+    color: var(--primary-colour);
+}
+
+.poso-nos, .poso-no1 {
+    display: grid;
+    grid-template-columns: 291px 346px;
+    gap: 72px;
+}
+
+.poso-no1{
+    grid-template-columns: 1fr 123px;
+}
+
