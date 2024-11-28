@@ -393,6 +393,7 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 200px 200px;
     gap: 12px;
     margin-left: 570px;
+    margin-block-start: -80px;
  }
 
  .price-btn-1 {
@@ -413,14 +414,110 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     font-weight: 600px;
     color: white;
     border: none;
-    background-color: var(--primary-colour);
+    background-color: var(--url-colour);
     border-radius: 100px;
  }
 
  .desktop-11 {
     width: 1440px;
-height: 523px;
-border: 1px red solid;
+    height: 523px;
+    background: linear-gradient(to right, rgba(30, 52, 72, 1), rgba(30, 52, 72, 0)); 
+        background-color: rgba(30, 52, 72, 1);
+    background-image: 
+    url('/Assets/Group\ 3\ \(1\).png'),
+    url('/Assets/Group\ 2.png');
+
+    background-size: 
+    contain,      
+    contain;      
+
+    background-repeat: 
+    no-repeat,    
+    no-repeat;  
+
+    background-position: 
+    top left,     
+    bottom right; 
+ }
+
+ .desktop-11-small-cont {
+    width: 476px;
+    height: 355px;
+    margin-inline-start: 482px;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 0px;
+    border-radius: 12px ;
+    display: grid;
+    grid-template-rows: 392px 392px;
+    background-color: white;
+    gap: 40px;
+    gap: 12px;margin-block-start: 80px;
+    
+ }
+
+ .small-cont-1 {
+    display: grid;
+    grid-template-rows: 55px 48px; 
+    gap: 24px;
+    margin-inline-start: 12px;
+    
+ }
+
+ .paste-btn, .dom-btn, .alias-btn {
+    width: 392px;
+    height: 55px;
+    border: 1px solid var(--primary-colour);
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--primary-colour);
+    background-color: transparent;
+ }
+
+ .two-btns {
+    display: grid;
+    grid-template-columns: 202px 178px; 
+    width: 392px;
+    gap: 12px;
+   
+ }
+
+ .alias-btn {
+
+    width: 178px;
+    height: 48px;
+ }
 
 
+ .dom-btn {
+    width: 202px;
+    height: 48px;
+    font-size: 14px;
+ }
+
+ .small-cont-1 {
+    display: grid;
+    grid-template-rows: 48px 60px; 
+    gap: 24px;
+    margin-inline-start: 12px;
+    
+ }
+
+ .trim-url {
+    width: 392px;
+    height: 48px;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--url-colour);
+    justify-content: first baseline;
+    display: grid;
+    grid-template-columns: 70px 24px; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
  }
