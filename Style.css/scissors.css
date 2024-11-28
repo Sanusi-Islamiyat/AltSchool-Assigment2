@@ -316,7 +316,111 @@ font-size: 16px;
 .desktop-1 {
     width: 1440px;
 height: 1073px;
-border: 1px solid red;
-
+display: grid;
+grid-template-rows: 108px 627px 48px;
+gap: 120px;
 
 }
+
+ .price-cont {
+    display: grid;
+    grid-template-rows: 48px 52px;
+    margin-inline-start: 432px;
+}
+
+ .price {
+    display: grid;
+    grid-template-columns: 0.1px 556px;
+    gap: 16px;
+    margin-block-end: 20px;
+ }
+
+ .price-cat {
+    display: grid;
+    grid-template-columns: 379px 410px 379px;
+    margin-inline-start: 176px;
+    margin-block-start: 50px;
+    
+ }
+
+ .basic, .professionals, .teams {
+    display: grid;
+    grid-template-rows: 32px 320px;
+    gap: 4px;
+    border: 0.4px solid var(--url-colour);
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    height: 455px;
+    justify-content: center;
+    margin-inline-end: -30px;
+    
+ }
+
+ .free-cont {
+    display: grid;
+    grid-template-rows: 88px 216px;
+    gap: 80px;
+ }
+
+ .features-p {
+    width: 186px;
+height: 216px;
+gap: 24px;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ }
+
+ .feat-1 {
+    display: grid;
+    grid-template-columns: 16px 162px;
+    gap: 8px;
+    
+ }
+
+ .professionals {
+    height: 627px;
+    margin-block-start: -91px;
+    border: none;
+    background: linear-gradient(to right, rgba(30, 52, 72, 1), rgba(30, 52, 72, 0)); 
+    background-color: rgba(30, 52, 72, 1);
+    color: white;
+    z-index: 1px;
+    position: relative;
+ }
+
+ .price-btns {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 12px;
+    margin-left: 570px;
+ }
+
+ .price-btn-1 {
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: var(--primary-colour);
+    border: 1px solid var(--primary-colour);
+    background-color: transparent;
+    border-radius: 100px;
+ }
+
+ .price-btn-2 {
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: white;
+    border: none;
+    background-color: var(--primary-colour);
+    border-radius: 100px;
+ }
+
+ .desktop-11 {
+    width: 1440px;
+height: 523px;
+border: 1px red solid;
+
+
+ }
