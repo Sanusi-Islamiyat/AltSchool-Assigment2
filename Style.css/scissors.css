@@ -333,6 +333,7 @@ gap: 120px;
     grid-template-columns: 0.1px 556px;
     gap: 16px;
     margin-block-end: 20px;
+    margin-inline-start: 90px;
  }
 
  .price-cat {
@@ -520,4 +521,101 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     justify-content: center;
     align-items: center;
+ }
+
+
+ .faq-main-cont {
+    width: 1440px;
+    height: 1153px;
+    background-image: url('/Assets/faq-1.png'),
+    url('/Assets/faq-2.png');
+
+    background-size: 
+    300px,      
+    300px;      
+
+    background-repeat: 
+    no-repeat,    
+    no-repeat;  
+
+    background-position: 
+    top left,     
+    bottom right; 
+
+    
+
+ }
+
+ .faq-inner-cont {
+    display: grid;
+    grid-template-rows: 48px 127px 48px 48px 48px 48px 48px 86px 48px 86px ;
+    margin-inline-start: 324px;
+    margin-block-start: 43px;
+    width: 792px;
+    height: 955px;
+    gap: 30px
+   
+    
+ }
+
+ .faq-title {
+    display: grid;
+    grid-template-columns: 0.1px 556px;
+    gap: 16px;
+    margin-inline-start: 338.95px;
+
+    
+ }
+
+ summary {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    font-weight:500 ;
+    
+
+
+ }
+
+ details {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    
+
+
+ }
+
+ .hr-and-info-1 {
+    display: grid;
+    grid-template-rows: 110px 1px ;
+    gap: 16px;
+    height: 127px;
+    margin-block-start: 14px;
+  
+ }
+
+ .hr-and-info-2 {
+    display: grid;
+    grid-template-rows: 31px 1px ;
+    gap: 16px;
+    height: 48px;
+    margin-block-start: 14px;
+   
+ }
+
+ .hr-and-info-3 {
+    display: grid;
+    grid-template-rows: 69px 1px ;
+    gap: 16px;
+    height: 86px;
+    margin-block-start: 14px;
+}
+
+ hr {
+   
+    width: 792px;
+    border:1px solid rgba(214, 214, 214, 1) ;
+    margin-inline-start: 0px;
  }
