@@ -531,7 +531,7 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     url('/Assets/faq-2.png');
 
     background-size: 
-    300px,      
+    400px,      
     300px;      
 
     background-repeat: 
@@ -619,3 +619,183 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     border:1px solid rgba(214, 214, 214, 1) ;
     margin-inline-start: 0px;
  }
+
+ .revolution-main-cont {
+    width: 1440px;
+   height: 299px;
+   background: linear-gradient(to right, rgba(30, 52, 72, 1), rgba(30, 52, 72, 0)); 
+        background-color: rgba(30, 52, 72, 1);
+
+   background-image: 
+   url('/Assets/revo-1st.png'),
+   url('/Assets/revo-2nd.png');
+
+    background-size: 
+    contain,
+    contain;
+
+    background-repeat: 
+    no-repeat,
+    no-repeat;
+
+    background-position: 
+    top left,
+    bottom right;
+ }
+
+ .revo-2nd-cont {
+    display: grid;
+    grid-template-rows: 57px 48px;
+    width: 806px;
+    height: 137px;
+   gap: 32px;
+    margin-block-start: 109px;
+    margin-inline-start: 309px;
+    
+ }
+
+ .revo-p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-block-start: 0px;
+    
+ }
+
+ .revo-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-inline-start: 303px;
+    border: none;
+    background-color: var(--url-colour);
+ }
+
+ footer {
+    width: 1440px;
+height: 561px;
+
+background-image: 
+url('/Assets/now.png'),
+url('/Assets/foot-2.png');
+
+ background-size: 
+ 300px,
+ contain;
+
+ background-repeat: 
+ no-repeat,
+ no-repeat;
+
+ background-position: 
+ bottom left,
+ bottom right;
+
+position: relative;
+
+ }
+
+ .footer-cont {
+    display: grid;
+grid-template-columns: 184px 812px;
+gap: 100px;
+margin-block-start: 95px;
+ margin-inline-start: 203px;
+ 
+ }
+
+ .socials {
+    width: 184px;
+height: 96px;
+ display: grid;
+ grid-template-rows:40px 24px ;
+ gap: 32px;
+
+ }
+
+ .footer-scissors {
+    width: 155px;
+height: 40px;
+display: grid;
+grid-template-columns: 24px 2px 99px;
+gap: 8px;
+justify-content: center;
+align-items: center;
+ }
+
+ .socials-logo {
+width: 184px;
+height:24px;
+gap: 24px;
+display: grid;
+grid-template-columns: 24px 24px 24px 24px;
+justify-content: center;
+align-items: center;
+
+ }
+
+ .deets-footer {
+    width: 812px;
+height: 384px;
+display: grid;
+grid-template-columns: 150px 201px 211px 148px;
+gap: 24px;
+ }
+
+ .dts-ft-col {
+    display: grid;
+    grid-template-rows: 104px 224px;
+    gap: 76px;
+    width: 108px;
+    margin-inline-end: 20px;
+ }
+
+ .one, .two {
+    display: grid;
+    grid-template-rows: 24px 72px;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.two {
+    grid-template-rows: 24px 192px;
+}
+
+.dts-ft-col-2 {
+    display: grid;
+    grid-template-rows: 128px 176px;
+    gap: 50px;
+    width: 201px;
+ }
+
+ .three, .four {
+    display: grid;
+    grid-template-rows: 24px 96px;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.four {
+    grid-template-rows: 24px 144px;
+}
+
+.foot-note {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    margin-block-end: 10px;
+    margin-inline-end: 60px;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1px 53px 1px 1fr;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
